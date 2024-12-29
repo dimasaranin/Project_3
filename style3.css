@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.header {
+    outline: 2px solid black;
+    width: 700px;
+    height: 200px;
+}
+
+.sidebar {
+    outline: 2px solid black;
+    width: 250px;
+    height: 450px;
+    float: left;
+}
+
+.content {
+    outline: 2px solid black;
+    width: 450px;
+    height: 450px;
+    float: left;
+}
+
+.footer {
+    outline: 2px solid black;
+    width: 700px;
+    height: 200px;
+    float: left;
+}

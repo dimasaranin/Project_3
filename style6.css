@@ -1,0 +1,46 @@
+.back {
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+} 
+
+.form {
+    width: 320px;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.tx2 {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.ema2 {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.ph2 {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.pass2 {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.registr2 {
+    width: 100%;
+    border: 1px solid #1cbc11;
+    background-color:  #1cbc11;
+    color: white;
+}
+
+.registr2:hover {
+    background-color: #14a20a;
+}
+

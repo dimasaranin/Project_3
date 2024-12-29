@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #444;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu  li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #333;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.submenu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.submenu li:hover {
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+}
+
+

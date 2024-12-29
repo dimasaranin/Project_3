@@ -1,0 +1,32 @@
+.cont ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.cont li {
+    position: relative;
+}
+
+.cont li::after {
+    content: ">";
+    margin: 0 5px;
+}
+
+.cont li:last-child::after {
+    content: "";
+}
+
+.cont a {
+    color: #0b56ea;
+    text-decoration: none;
+}
+
+.cont a:hover {
+    text-decoration: underline;
+}
+
+.cont span {
+    color: #333;
+}
